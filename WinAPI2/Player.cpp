@@ -21,6 +21,12 @@ void Player::Start()
 void Player::Update()
 {
 	cout << "Player Update Success" << endl;
+	if (GetAsyncKeyState(VK_RIGHT) & 0x8000) mPos.x += 5.0f;
+	if (GetAsyncKeyState(VK_LEFT) & 0x8000) mPos.x -= 5.0f;
+	if (GetAsyncKeyState(VK_UP) & 0x8000) mPos.y -= 5.0f;
+	if (GetAsyncKeyState(VK_DOWN) & 0x8000) mPos.y += 5.0f;
+	system("cls");//버퍼링이 사라짐 
+
 }
 
 void Player::Render()

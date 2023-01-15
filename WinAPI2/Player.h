@@ -16,6 +16,6 @@ public:
     virtual void Release() override;
 
 private:
-    float mRadius = 5.0f;
+    float mRadius = 50.0f;
 };
 

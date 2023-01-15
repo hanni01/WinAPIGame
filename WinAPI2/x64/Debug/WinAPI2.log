@@ -1,8 +1,6 @@
-﻿  MainApp.cpp
-  Player.cpp
-C:\Users\he308\source\repos\WinAPI2\WinAPI2\Player.cpp(28,77): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\he308\source\repos\WinAPI2\WinAPI2\Player.cpp(28,59): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\he308\source\repos\WinAPI2\WinAPI2\Player.cpp(28,41): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\he308\source\repos\WinAPI2\WinAPI2\Player.cpp(28,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  코드를 생성하고 있습니다...
+﻿  Player.cpp
+C:\Users\he308\source\repos\WinAPI2\WinAPI2\Player.cpp(34,77): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\he308\source\repos\WinAPI2\WinAPI2\Player.cpp(34,59): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\he308\source\repos\WinAPI2\WinAPI2\Player.cpp(34,41): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\he308\source\repos\WinAPI2\WinAPI2\Player.cpp(34,23): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   WinAPI2.vcxproj -> C:\Users\he308\source\repos\WinAPI2\x64\Debug\WinAPI2.exe

@@ -5,6 +5,7 @@
 #include "framework.h"
 #include "WinAPI2.h"
 #include "MainApp.h"
+#include "GameObject.h"
 
 #define MAX_LOADSTRING 100
 
