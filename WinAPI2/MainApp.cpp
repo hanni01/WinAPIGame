@@ -9,10 +9,11 @@
 #endif
 
 
-bool MainApp::Intialize(HDC HDC)
+bool MainApp::Intialize(HDC HDC, PAINTSTRUCT ps)
 {
 	//초기화할 때 HDC 저장
 	mHDC = HDC;
+	mPS = ps;
 
 	if (mHDC == NULL)
 	{
@@ -20,7 +21,7 @@ bool MainApp::Intialize(HDC HDC)
 	}
 	//플레이어 생성
 	mPlayer = new Player;
-	if (mPlayer->Awake(mHDC) == false)
+	if (mPlayer->Awake(mHDC, mPS) == false)
 	{
 		return false;
 	}
