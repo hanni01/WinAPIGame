@@ -52,7 +52,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 
     MainApp* mainApp = new MainApp;
     //mainApp 초기화
-    if (!mainApp->Intialize(HDC, ps))
+    if (!mainApp->Intialize(hWnd, HDC, ps))
     {
         return FALSE;
     }
